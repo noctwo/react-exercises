@@ -23,3 +23,12 @@
 .card-text h3{
     margin-bottom: 1em;
 }
+
+@media (max-width: 765px) {
+    .cards-wrapper{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
