@@ -12,7 +12,7 @@
 
 .hero-img{
     width: 60%;
-    background-image: url(/public/bg-02.jpg);
+    background-image: url(/bg-02.jpg);
     background-size: cover;
     border-radius: 16px;
 }
