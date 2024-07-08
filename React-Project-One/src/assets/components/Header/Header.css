@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 2em;
+}
+
+nav{
+    display: flex;
+    gap: 1em;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: #28e2c0;
+}

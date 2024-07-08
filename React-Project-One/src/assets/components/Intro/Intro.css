@@ -1,0 +1,19 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 5em 2em;
+    align-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    text-align: center;
+}
+
+.intro-text h2{
+    margin-bottom: 1em;
+}
+
+.intro-cta{
+    margin-top: 3em;
+}

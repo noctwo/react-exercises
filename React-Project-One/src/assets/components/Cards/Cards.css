@@ -1,0 +1,25 @@
+.cards-wrapper{
+    padding: 3em 2em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.card{
+    background-color: #172539;
+    border-radius: 16px;
+    width: 33%;
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-text{
+    padding: 2em 1em;
+}
+
+.card-text h3{
+    margin-bottom: 1em;
+}
