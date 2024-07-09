@@ -1,0 +1,42 @@
+.card{
+    border: 1px solid rgb(142, 141, 141);
+    border-radius: 16px;
+    align-content: end;
+}
+
+.card-emoji{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.card-funfacts ul li{
+    list-style: none;
+    padding: 0.5em;
+}
+
+.card-funfacts{
+    margin-top: 2em;
+    background-color: #464646;
+    border-radius: 16px;
+    padding: 2em 2em;
+    line-height: 1.5rem;
+}
+
+h3, h4, .card-habitat, .card-diet, .card-lifespan{
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 10;
+}
+
+.card-lifespan::after{
+    content: " years"
+}
