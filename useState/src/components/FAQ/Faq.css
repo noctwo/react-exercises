@@ -1,0 +1,6 @@
+.shortFaqOff, .longFaqOff{
+    display: none;
+}
+.shortFaqOn, .longFaqOn{
+    display: block;
+}
