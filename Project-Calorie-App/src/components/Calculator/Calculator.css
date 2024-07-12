@@ -1,16 +1,22 @@
 .calculator{
-    margin: 5em 0;
+    background-color: #F6FBE9;
+    padding: 5em 0;
+    margin: 0 auto;
+    
 }
 .calculator h2, .calculator p{
     text-align: center;
 }
 
-.calc-input-wrapper{
-    padding: 3em 0;
-    margin: 0 auto;
-    width: 90%;
+.calc-inner-input-wrapper{
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
     background-color: #FAFDF2;
+    padding: 3em 0;
+    border-radius: 16px;
 }
+
 
 .calc-input-wrapper input[type="number"], .calc-input-wrapper select{
     padding: 1em 2em;
@@ -19,10 +25,17 @@
     border: none;
     margin: 1em;
 }
+    
 
 .gender-radio-wrapper{
     display: flex;
     gap:1em;
     align-items: center;
     justify-content: center;
+    padding: 2em;
+}
+
+.calc-heading-wrapper p {
+    width: 70%;
+    margin: 0 auto;
 }

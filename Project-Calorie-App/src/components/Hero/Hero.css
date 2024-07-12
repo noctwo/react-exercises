@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    background-color: #DCF1A7;
+    background-color: #F6FBE9;
     gap: 2em;
 }
 
@@ -13,4 +13,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.hero-claim{
+    border-bottom: 3px solid #CBEA7B;
+    width: fit-content;
+}
+
+.hero-claim p{
+    font-size: 1.5rem;
+}
+
+.hero-text-container p{
+    padding-right: 5rem;
+}
+
+h1{
+    padding: 0.5em 0;
+}
+
+.hero-btn-container{
+    margin-top: 3em;
+    display: flex;
+    gap: 1em;
 }

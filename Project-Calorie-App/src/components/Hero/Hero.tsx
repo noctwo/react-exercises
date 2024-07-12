@@ -7,9 +7,9 @@ const Hero = () => {
                 <img src="/img/hero.png"></img>
             </div>
             <div className="hero-text-container">
-                <span className="hero-claim">
-                    Transform your ❤️ Health with
-                </span>
+                <div className="hero-claim">
+                    <p>Transform your ❤️ Health with</p>
+                </div>
                 <h1>Personalized Nutrition Coaching</h1>
                 <p>Welcome to Nutritionist, your partner in achieving optimal health through personalized nutrition coaching. Our certified nutritionists are here to guide you on your weight loss journey, providing customized plans and ongoing support. Start your transformation today and experience the power of personalized nutrition coaching.</p>
                 <div className="hero-btn-container">

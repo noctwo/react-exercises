@@ -66,9 +66,12 @@ const Calculator = () => {
     return ( 
 
         <section className="calculator">
+            <div className="calc-heading-wrapper">
             <h2>Test your daily Calorie Requirement</h2>
-            <p>To determine your daily calorie requirement, we need some information about your age, gender, weight, height and activity level. <br></br>Enter this information to calculate your individual requirements.</p>
+            <p>To determine your daily calorie requirement, we need some information about your age, gender, weight, height and activity level. Enter this information to calculate your individual requirements.</p>
+            </div>
         <div className="calc-input-wrapper">
+            <div className="calc-inner-input-wrapper">
             <input type="number" onChange={getHeight} value={height} placeholder="Body Height (cm)"></input>
             <input type="number" onChange={getAge} value={age} placeholder="Age (years)"></input>
             <input type="number" onChange={getWeight} value={weight} placeholder="Weight (Kgs)"></input>
@@ -81,19 +84,21 @@ const Calculator = () => {
                 <option value="1.9">Stehende Tätigkeit + Sitzanteil</option>
                 <option value="2.2">Körperliche Arbeit</option>
             </select>
+            
             <div className="gender-radio-wrapper">
                 <input type="radio" name="gender-radio" id="female-radio" value="female" onChange={handleGenderChange}></input>
                 <label htmlFor="female-radio">weiblich</label>
                 <input type="radio" name="gender-radio" id="male-radio" value="male" onChange={handleGenderChange}></input>
                 <label htmlFor="male-radio">männlich</label>
             </div>
-            <button className="btn" onClick={handleCalculation}>Berechnen</button>
+            <button className="btn calc-btn" onClick={handleCalculation}>Berechnen</button>
             {result !== null && grundumsatz !== null &&(
                 <div className="result">
                     <h4>Grundumsatz {grundumsatz} kcal</h4>
                     <h3>Gesamtumsatz: {result} kcal</h3>
                 </div>
             )}
+        </div>
         </div>
         </section>
     );

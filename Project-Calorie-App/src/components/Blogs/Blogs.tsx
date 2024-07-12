@@ -11,7 +11,7 @@ const Blogs = () => {
                 <div className="blogpost-card">
                     <img src="/img/blog-img-01.png"></img>
                     <span className="blog-category">Weight Loss</span>
-                    <h3>The Benefits of Hydration for Weight Loss</h3>
+                    <h3 className="blog-article-heading">The Benefits of Hydration for Weight Loss</h3>
                     <p className="blog-card-description">
                     Discover how staying hydrated can support your weight loss goals and improve overall health.
                     </p>
@@ -32,7 +32,7 @@ const Blogs = () => {
                 <div className="blogpost-card">
                     <img src="/img/blog-img-02.png"></img>
                     <span className="blog-category">Mindful Eating</span>
-                    <h3>Cultivating a Healthy Relationship with Food</h3>
+                    <h3 className="blog-article-heading">Cultivating a Healthy Relationship with Food</h3>
                     <p className="blog-card-description">
                     Learn how practicing mindful eating can help you develop a healthier relationship with food and improve your overall well-being.
                     </p>
