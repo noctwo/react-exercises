@@ -1,0 +1,16 @@
+.hero{
+    display: flex;
+    background-color: #DCF1A7;
+    gap: 2em;
+}
+
+.hero-img-container{
+    width: 50%;
+}
+
+.hero-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

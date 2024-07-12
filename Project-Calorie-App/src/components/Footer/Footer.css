@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #393939;
+}
+
+.back-to-top{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 1em;
+}
+
+.back-to-top img{
+    width: 30%;
+    cursor: pointer;
+}

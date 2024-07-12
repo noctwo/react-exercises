@@ -1,0 +1,31 @@
+.blogs{
+    margin: 5em 0;
+}
+.blogs-heading-wrapper{
+    text-align: center;
+}
+
+.blogpost-wrapper{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blogpost-card{
+    background-color: #FAFDF2;
+    width: 45%;
+    padding: 1.5em 1.5em 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.blog-card-author-infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-infos{
+    display: flex;
+    gap: 1em;
+}

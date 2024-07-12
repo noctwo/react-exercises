@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FDFEFB;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  padding: 1em 2em;
+  border-radius: 12px;
+  border: none;
+  color: #393939;
+  background-color: #CBEA7B;
+}
+
+img{
+  max-width: 100%;
+}
