@@ -17,3 +17,9 @@ footer{
     width: 30%;
     cursor: pointer;
 }
+
+@media (max-width: 786px) {
+    footer{
+        flex-direction: column;
+    }
+}

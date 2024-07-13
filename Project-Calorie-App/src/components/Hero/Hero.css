@@ -37,3 +37,36 @@ h1{
     display: flex;
     gap: 1em;
 }
+
+
+@media (max-width: 786px) {
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-img-container{
+        width: 100%;
+    }
+
+    .hero-text-container{
+        width: 100%;
+        padding: 0 1.5em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-img-container{
+        width: 100%;
+    }
+
+    .hero-text-container{
+        width: 100%;
+        padding: 0 1.5em;
+    }
+}

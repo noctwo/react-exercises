@@ -94,8 +94,8 @@ const Calculator = () => {
             <button className="btn calc-btn" onClick={handleCalculation}>Berechnen</button>
             {result !== null && grundumsatz !== null &&(
                 <div className="result">
-                    <h4>Grundumsatz {grundumsatz} kcal</h4>
-                    <h3>Gesamtumsatz: {result} kcal</h3>
+                    <h4>Grundumsatz: {grundumsatz.toFixed(2)} kcal - {(grundumsatz*4.184).toFixed(2)} kJ </h4>
+                    <h3>Gesamtumsatz: {result.toFixed(2)} kcal - {(result*4.1884).toFixed(2)} kJ</h3>
                 </div>
             )}
         </div>

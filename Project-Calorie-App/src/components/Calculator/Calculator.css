@@ -39,3 +39,26 @@
     width: 70%;
     margin: 0 auto;
 }
+
+.result{
+    margin-top: 2em;
+}
+
+.result h3{
+    margin-top: 0.5em;
+}
+
+
+@media (max-width: 786px) {
+    .calc-inner-input-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calc-input-wrapper input[type="number"], .calc-input-wrapper select{
+        width: 90%;
+    }
+    .calculator h2{
+        padding: 0 1.5em;
+    }
+}
