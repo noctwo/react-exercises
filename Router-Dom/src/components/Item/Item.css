@@ -1,0 +1,23 @@
+.item-card{
+    background-color: darkgray;
+    border-radius: 6px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
+.item-card a{
+    text-decoration: none;
+    background-color: lightgreen;
+    color: #393939;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    align-self: flex-end;
+    margin-top: 10px;
+
+}
+
+.item-card a:hover{
+    background-color: greenyellow;
+}

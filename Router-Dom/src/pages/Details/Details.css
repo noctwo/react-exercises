@@ -1,0 +1,10 @@
+.details-wrapper{
+    background-color: darkgray;
+    border-radius: 6px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    width: 50%;
+    margin: 0 auto;
+}

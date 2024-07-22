@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
+
+header a{
+    color: lightgreen;
+    text-decoration: none;
+}
