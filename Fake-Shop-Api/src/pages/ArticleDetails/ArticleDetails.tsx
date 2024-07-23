@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IProduct } from "../../components/Contracts/IProduct";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./ArticleDetails.css"
 
 const ArticleDetails = () => {
@@ -22,12 +22,17 @@ const ArticleDetails = () => {
         <img src={articleDetailData?.image} alt={articleDetailData?.title} />
         </div>
         <div className="article-detail-text">
+        <p>{articleDetailData?.category}</p>
         <h2>{articleDetailData?.title}</h2>
         <p>{articleDetailData?.description}</p>
-        <p>{articleDetailData?.price}</p>
-        <p>{articleDetailData?.category}</p>
-        <p>{articleDetailData?.rating.rate}</p>
+        <div className="article-details-numbers">
+        <p>{articleDetailData?.rating.rate} / 5</p>
         <p>{articleDetailData?.rating.count}</p>
+        <p className="article-details-price">{articleDetailData?.price} €</p>
+        </div>
+        <div className="back-btn-container">
+            <Link className="back-btn" to="/">Back</Link>
+        </div>
         </div>
         </div>
     );

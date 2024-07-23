@@ -4,6 +4,9 @@
     min-height: 38vh;
     transition: 250ms;
     opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .article-card:hover{
@@ -34,3 +37,14 @@ opacity: 1;
     padding: 2em;
 }
 
+
+.article-card-numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.price{
+    font-size: 1.3rem;
+}

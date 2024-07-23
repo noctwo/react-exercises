@@ -16,9 +16,10 @@ const ArticleCard: React.FC<IArticlesProps> = (props) => {
             </div>
             <div className="article-card-infos">
             <h3>{props.article.title}</h3>
-            <p>{props.article.price}</p>
-            <p>{props.article.rating.count}</p>
-            <p>{props.article.rating.rate}</p>
+            <div className="article-card-numbers">
+            <p>{props.article.rating.rate} / 5</p>
+            <p className="price">{props.article.price} €</p>
+            </div>
             </div>
         </div>
         </Link>
