@@ -1,0 +1,36 @@
+.article-card{
+    border: 1px solid #e6e4e4;
+    object-fit: cover;
+    min-height: 38vh;
+    transition: 250ms;
+    opacity: 0.9;
+}
+
+.article-card:hover{
+    -webkit-box-shadow: 3px 3px 8px 3px #f0eeee; 
+box-shadow: 3px 3px 8px 3px #f0eeee;
+opacity: 1;
+}
+
+.article-card h3{
+    color: #c5c3c3;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.article-img-container{
+    padding: 1em;
+    height: 250px;
+    background-color: #fff;
+}
+
+.article-img-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.article-card-infos{
+    padding: 2em;
+}
+
